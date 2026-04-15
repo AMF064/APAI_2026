@@ -1,6 +1,107 @@
-.ipynb_checkpoints
+# =========================
+# ENTORNO VIRTUAL (NO SUBIR)
+# =========================
+APAI/
+venv/
+.env/
+Proyecto2/APAI/
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# =========================
+# LIBRERIAS INSTALADAS
+# =========================
+lib/
+site-packages/
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# CLAUDE
+# =========================
+.claude/
+
+# =========================
+# DATASETS Y ARCHIVOS PESADOS
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Proyecto 1 - datasets
 Practica_3/xBD_UC3M.zip
-Practica_3/xBD_UC3M
+Practica_3/xBD_UC3M/
 Practica_3/data/
+
+# Proyecto 2 - datasets y carpetas pesadas
+Proyecto2/xBD_UC3M.zip
+Proyecto2/xBD_UC3M_test_with_labels.zip
+Proyecto2/APAI_Pr2A_ImageSegmentation_2025_2026.zip
+Proyecto2/APAI_Pr2B_ObjectDetection_2025_2026.zip
+Proyecto2/test_with_labels/
+Proyecto2/APAI_Pr2A_ImageSegmentation_2025_2026/myVOC4/
+Proyecto2/APAI_Pr2B_ObjectDetection_2025_2026/myVOC4/
+
+# Carpetas de imagenes (muy pesadas)
+*/images/
+*/masks/
+*/instances/
+*/labels/
+
+# =========================
+# ARCHIVOS DE IMAGEN
+# =========================
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.bmp
+
+# =========================
+# MODELOS PREENTRENADOS
+# =========================
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pkl
+
+# =========================
+# LOGS Y TEMP
+# =========================
+*.log
+tmp/
+temp/
+
+# =========================
+# SISTEMA (MAC)
+# =========================
+.DS_Store
+
+# =========================
+# VARIABLES DE ENTORNO
+# =========================
+.env
+.env.*
+
+# =========================
+# OTROS
+# =========================
 .venv
 .qodo

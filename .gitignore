@@ -105,3 +105,12 @@ temp/
 # =========================
 .venv
 .qodo
+
+# Artefactos de entrenamiento de la P2A
+Proyecto2/APAI_Pr2A_ImageSegmentation_2025_2026/results_xbd_binary/
+Proyecto2/APAI_Pr2A_ImageSegmentation_2025_2026/results_43/
+Proyecto2/APAI_Pr2A_ImageSegmentation_2025_2026/results_44/
+*.pth
+*.pth.tar
+__pycache__/
+.ipynb_checkpoints/
